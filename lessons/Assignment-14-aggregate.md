@@ -18,8 +18,6 @@ Start the server as usual. Now open the browser to localhost:3000\. You will see
 
 ## Assignment
 
-Create a git branch called fetch. This is where you will put the code changes for your lesson.
-
 The HTML for this application is in public/index.html and public/session.html. The first of these pages calls public/member\_ops.js. The second page calls public/session\_ops.js. Because we wanted to keep this lesson short, nearly all of the function has been implemented. However, you will observe that nothing happens when you try to delete a member, or to create a fact, or to update a fact. Your task is to edit public/session\_ops.js to correct this. See the sections marked “your code goes here”. You can study the other sections to make it clear how the required fetch operations are to be done.
 
 This reference may be helpful: <https://developer.mozilla.org/en-US/docs/Web/API/Fetch%5FAPI/Using%5FFetch>

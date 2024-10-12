@@ -2,7 +2,7 @@ Now we will call the API using Fetch, from a front end application. We will crea
 
 As the previous lesson was a long one, this lesson is short. It will help you understand how front end applications access a Rails API.
 
-Create a branch called lesson14, when the lesson13 branch is active.  The new branch will store your work.
+Create a branch called `lesson14`, when the `lesson13` branch is active.  The new branch will store your work.
 
 ## The Starter Application
 
@@ -11,8 +11,6 @@ You already have the starter application, but it is not functionally complete. I
 Start the server as usual. Now open the browser to localhost:3000\. You will see a very basic page, which is not styled at all. The default (session) page allows user enrollment, user logon, and user logoff. The members and facts page allows CRUD operations for members and facts. Try the various operations. Of course, you can’t change member and fact entries without being logged on, so you need to use that function first.
 
 ## Assignment
-
-Create a git branch called fetch. This is where you will put the code changes for your lesson.
 
 The HTML for this application is in public/index.html and public/session.html. The first of these pages calls public/member\_ops.js. The second page calls public/session\_ops.js. Because we wanted to keep this lesson short, nearly all of the function has been implemented. However, you will observe that nothing happens when you try to delete a member, or to create a fact, or to update a fact. Your task is to edit public/session\_ops.js to correct this. See the sections marked “your code goes here”. You can study the other sections to make it clear how the required fetch operations are to be done.
 
